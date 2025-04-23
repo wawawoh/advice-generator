@@ -7,18 +7,27 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Advice generator app</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+   <script src="script.js" defer></script>
+   <link rel="stylesheet" href="style.css">
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
 <body>
+  <main>
+    <h1> Advice #<span>number</span></h1>
+    <p class="advice"></p>
+    <picture>
+      <source media="(max-width:600 )" srcset="images/pattern-divider-mobile.svg">
+      <img class="divider"src="images/pattern-divider-desktop.svg" alt="">
+    </picture>
+    <button> <img class="dice"src="images/icon-dice.svg" alt=""> </button>
+  </main>
 
-  Advice #<!-- Advice ID goes here -->
+ 
 
-  "<!-- Advice text goes here -->"
+  
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
