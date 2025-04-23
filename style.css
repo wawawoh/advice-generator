@@ -16,7 +16,7 @@ main {
     align-items: center;
     background-color: hsl(217, 19%, 24%);
     gap:1rem;
-    padding:1rem;
+    padding:3rem;
     max-width: 50%;
     border-radius: 1rem;
 }
@@ -26,6 +26,8 @@ p {
     color: white;
 }
 h1 {
+    font-size: 1rem;
+    letter-spacing: 1rem;
     color: hsl(150, 100%, 66%);
 }
 
@@ -40,12 +42,12 @@ h1 {
 button {
     
     position: relative;
-    top:3rem;
+    top:5rem;
     background-color: hsl(150, 100%, 66%);
     border: none;
     width: 6rem;
     aspect-ratio: 1 / 1 ;
-    border-radius: 1rem;
+    border-radius: 4rem;
     cursor: pointer;
 }
 button:hover {
